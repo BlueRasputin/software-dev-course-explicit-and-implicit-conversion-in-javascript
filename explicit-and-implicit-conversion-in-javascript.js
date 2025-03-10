@@ -28,5 +28,9 @@ if (isValid) {
 }
 
 let age = "25";
-let totalAge = age + 5;
+let num = Number(age) //explicit type conversion of age string to number
+let totalAge = num + 5; //changed age to num to reflect new function
 console.log("Total Age: " + totalAge);
+
+let numTwo = 0
+console.log(Boolean(numTwo)); //implicit type conversion of number to boolean
